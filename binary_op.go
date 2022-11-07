@@ -36,6 +36,9 @@ var binaryOps = map[string]bool{
 	"if":      true,
 	"ifnot":   true,
 	"default": true,
+
+	// Matrix ops
+	"|": true,
 }
 
 var binaryOpPriorities = map[string]int{
